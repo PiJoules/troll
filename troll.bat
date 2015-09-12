@@ -12,7 +12,7 @@ del Win32.vbs
 :: Begin writing vbs file
 
 echo set sapi = Wscript.CreateObject("SAPI.SpVoice") > Win32.vbs 
-echo Dim phrases(40) >> Win32.vbs
+echo Dim phrases(41) >> Win32.vbs
 echo Dim phrase_max, phrase_min >> Win32.vbs
 echo phrase_max = UBound(phrases) >> Win32.vbs
 echo phrase_min = 0 >> Win32.vbs
@@ -61,6 +61,7 @@ echo phrases(37) = "one on the steering column, one inside of the glovebox, one 
 echo phrases(38) = "clean yourself up" >> Win32.vbs
 echo phrases(39) = "my butt hole this big" >> Win32.vbs
 echo phrases(40) = "sit on my throne, with a dick in my butt" >> Win32.vbs
+echo phrases(41) = "never forgetti your mother's spaghetti, which she made when your palms were sweaty, knees weak, and arms heavy, especially when there's vomit on your sweater already. don't get unsteady, it's a tad petty, I'm not a regular yeti who eats briccetti. I like to throw confetti and be a bouncing betty, or my name isn't dante gabriel rossetti. bottom text." >> Win32.vbs
 
 echo do >> Win32.vbs
 
